@@ -1,0 +1,46 @@
+building word index ...
+Entity: 1441420, Relation in KB: 6102, Relation in use: 6103 
+loading data from data/webqsp/dev.json
+skip {112}
+max_facts:  18992
+converting global to local entity index ...
+avg local entity:  1424.558232931727
+max local entity:  2000
+The edge in dataset is 1031573
+249 cases in total, 0 cases without query entity, 244 cases with single query entity, 5 cases with multiple query entities
+building word index ...
+Entity: 1441420, Relation in KB: 6102, Relation in use: 6103 
+loading data from data/webqsp/test.json
+skip set()
+max_facts:  21620
+converting global to local entity index ...
+avg local entity:  1447.6894447834045
+max local entity:  2000
+The edge in dataset is 7057539
+1639 cases in total, 0 cases without query entity, 1610 cases with single query entity, 29 cases with multiple query entities
+Num Word 0
+Entity: 1441420, Relation: 6103, Word: 0
+word_dim 768
+Total Params 109482240
+Freezing LM params
+Entity: 1441420, Relation: 6103, Word: 6718
+evaluation.......
+how many eval samples...... 249
+avg_em 0.9196787148594378
+avg_hits 0.10441767068273092
+avg_f1 0.008158039661749371
+avg_precision 0.0042338328932723405
+avg_recall 0.8909978657889442
+{3: 245, 1: 4}
+2024-12-19 19:59:52,874 - root - INFO - EVAL F1: 0.0082, H1: 0.1044, EM 0.9197
+
+evaluation.......
+how many eval samples...... 1639
+avg_em 0.8785845027455765
+avg_hits 0.09884075655887736
+avg_f1 0.008335887684311883
+avg_precision 0.004618483651654619
+avg_recall 0.8419707493457272
+{3: 1628, 1: 10, 0: 1}
+2024-12-19 20:00:52,480 - root - INFO - TEST F1: 0.0083, H1: 0.0988, EM 0.8786
+
